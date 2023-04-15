@@ -17,9 +17,11 @@ This is a web app that lets you listen to and discover music using the Spotify A
 3. Create a Spotify Developer account and create a new app. Set the redirect URI to `http://localhost:3000/callback`.
 4. Rename the `.env.example` file to `.env` and add your Spotify app credentials:
 
+```
 REACT_APP_SPOTIFY_CLIENT_ID=<your-client-id>
 REACT_APP_SPOTIFY_CLIENT_SECRET=<your-client-secret>
 REACT_APP_SPOTIFY_REDIRECT_URI=http://localhost:3000/callback
+```
 
 5. Start the development server: `npm start`
 
